@@ -41,4 +41,4 @@ write.csv(newsDf, file="./data/headLineList.csv", row.names = FALSE)      # csv 
 newsURL <- "https://news.naver.com/main/main.nhn?mode=LSD&mid=shm&sid1=105"
 newsHtml <- read_html(newsURL)
 
-newsList <- newsHtml %>% html_nodes("#main_content") %>% html_nodes("#section_body") %>% html_node("ul")
+newsPgList <- newsHtml %>% html_nodes("#main_content") %>% html_nodes("#section_body") %>% html_node("ul")
