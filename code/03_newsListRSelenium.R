@@ -18,3 +18,5 @@ for(one in newsList) {
   
   print(temp) 
 }
+
+print(newsList)
