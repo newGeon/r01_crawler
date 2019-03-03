@@ -20,3 +20,5 @@ for(one in newsList) {
 }
 
 print(newsList)
+
+
